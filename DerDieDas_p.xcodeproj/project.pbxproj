@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD33BF531A758C8B007501D0 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33BF521A758C8B007501D0 /* CSV.swift */; };
 		DD90B3CB1A6D647C0095202C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90B3CA1A6D647C0095202C /* AppDelegate.swift */; };
 		DD90B3CD1A6D647C0095202C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90B3CC1A6D647C0095202C /* ViewController.swift */; };
 		DD90B3D01A6D647C0095202C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90B3CE1A6D647C0095202C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD33BF521A758C8B007501D0 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		DD90B3C51A6D647C0095202C /* DerDieDas_p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerDieDas_p.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD90B3C91A6D647C0095202C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD90B3CA1A6D647C0095202C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		DD90B3C71A6D647C0095202C /* DerDieDas_p */ = {
 			isa = PBXGroup;
 			children = (
+				DD33BF521A758C8B007501D0 /* CSV.swift */,
 				DD90B3CA1A6D647C0095202C /* AppDelegate.swift */,
 				DD90B3CC1A6D647C0095202C /* ViewController.swift */,
 				DD90B3CE1A6D647C0095202C /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				DD90B3CD1A6D647C0095202C /* ViewController.swift in Sources */,
 				DD90B3CB1A6D647C0095202C /* AppDelegate.swift in Sources */,
+				DD33BF531A758C8B007501D0 /* CSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				DD90B3E61A6D647C0095202C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD90B3E71A6D647C0095202C /* Build configuration list for PBXNativeTarget "DerDieDas_pTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				DD90B3E91A6D647C0095202C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
